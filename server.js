@@ -10,7 +10,7 @@ const PORT = process.env.PORT || 3000;
 
 // Middleware
 app.use(cors({
-    origin: ['http://localhost:3000', 'https://practice-tracker-frontend.vercel.app'],
+    origin: ['http://localhost:3000', 'https://your-frontend-url.vercel.app'],
     credentials: true
 }));
 app.use(express.json());
